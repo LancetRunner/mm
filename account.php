@@ -16,7 +16,7 @@ switch ($_SERVER['REQUEST_METHOD'])
 	
 
 
-	if (authentication($uid,$token))
+	if (authentication($uid2,$token))
         {
 		$query = sprintf("SELECT * FROM `user` WHERE email='%s'",
 		mysql_real_escape_string($email)
