@@ -4,10 +4,14 @@ switch ($_SERVER['REQUEST_METHOD'])
 {
     case 'GET':
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     if((isset($_GET["uid"]))&&(isset($_GET["token"]))&&(isset($_GET["account"])))
 
    
+=======
+    if((isset($_GET["uid"]))&&(isset($_GET["token"]))&&(isset($_GET["user"])))
+>>>>>>> a8e92d3406986e0f166a024add7816ce859ce8a2
 =======
     if((isset($_GET["uid"]))&&(isset($_GET["token"]))&&(isset($_GET["user"])))
 >>>>>>> a8e92d3406986e0f166a024add7816ce859ce8a2
