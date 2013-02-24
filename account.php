@@ -3,7 +3,7 @@ include_once("connection.php");
 switch ($_SERVER['REQUEST_METHOD']) 
 {
     case 'GET':
-    if((isset($_GET["uid"]))&&(isset($_GET["token"])))
+    if((isset($_GET["uid"]))&&(isset($_GET["token"]))&&(isset($_GET["user"])))
     {
 	$uid=$_GET["uid"];$token=$_GET["token"];$email=$_GET["email"];
 	if (authentication($uid,$token))
