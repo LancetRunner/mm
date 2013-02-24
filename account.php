@@ -9,11 +9,15 @@ switch ($_SERVER['REQUEST_METHOD'])
 
 
     {
+<<<<<<< HEAD
 
 	$uid=$_GET["uid"];$token=$_GET["tdd"];$email=$_GET["email"];
 
 	
 
+=======
+	$uid=$_GET["uid"];$token=$_GET["uid"];$email=$_GET["email"];
+>>>>>>> cf69caf9fd820765fdf86c44b84b308ff04dd52a
 	if (authentication($uid,$token))
         {
 		$query = sprintf("SELECT * FROM `user` WHERE email='%s'",
